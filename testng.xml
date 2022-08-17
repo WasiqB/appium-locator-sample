@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Locator Test Suite">
+    <test name="IOS Locators">
+        <classes>
+            <class name="com.github.wasiqb.appium.LocatorsIOSTest"/>
+        </classes>
+    </test>
+    <test name="Android Locators">
+        <classes>
+            <class name="com.github.wasiqb.appium.LocatorsAndroidUiAutomatorTest"/>
+            <class name="com.github.wasiqb.appium.LocatorsAndroidEspressoCloudTest"/>
+            <class name="com.github.wasiqb.appium.LocatorsAndroidEspressoTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
