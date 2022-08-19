@@ -24,8 +24,7 @@ public class BaseTest {
         try {
             return this.driver.findElement (by);
         } finally {
-            System.out.println (format ("Time taken to find element for locator type {0}: {1}", locatorType,
-                currentTimeMillis () - start));
+            System.out.println (format ("Time taken by {0}: {1}ms", locatorType, currentTimeMillis () - start));
         }
     }
 }
